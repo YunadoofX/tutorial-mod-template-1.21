@@ -9,7 +9,7 @@ import net.yunadoofx.tutorialmod.TutorialMod;
 public class ModItems {
     public static final Item SUPER_AMETHYST = registerItem(name: "super_amethyst", new Item(new Item.Settings()));
 
-
+//6:22
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
